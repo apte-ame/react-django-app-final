@@ -1,0 +1,50 @@
+2023-12-18 16:44:04,045 [INFO] Watching for file changes with StatReloader
+2023-12-18 16:44:48,493 [DEBUG] Importing BlpImagePlugin
+2023-12-18 16:44:48,495 [DEBUG] Importing BmpImagePlugin
+2023-12-18 16:44:48,496 [DEBUG] Importing BufrStubImagePlugin
+2023-12-18 16:44:48,497 [DEBUG] Importing CurImagePlugin
+2023-12-18 16:44:48,499 [DEBUG] Importing DcxImagePlugin
+2023-12-18 16:44:48,501 [DEBUG] Importing DdsImagePlugin
+2023-12-18 16:44:48,503 [DEBUG] Importing EpsImagePlugin
+2023-12-18 16:44:48,506 [DEBUG] Importing FitsImagePlugin
+2023-12-18 16:44:48,508 [DEBUG] Importing FliImagePlugin
+2023-12-18 16:44:48,510 [DEBUG] Importing FpxImagePlugin
+2023-12-18 16:44:48,515 [DEBUG] Image: failed to import FpxImagePlugin: No module named 'olefile'
+2023-12-18 16:44:48,517 [DEBUG] Importing FtexImagePlugin
+2023-12-18 16:44:48,519 [DEBUG] Importing GbrImagePlugin
+2023-12-18 16:44:48,522 [DEBUG] Importing GifImagePlugin
+2023-12-18 16:44:48,523 [DEBUG] Importing GribStubImagePlugin
+2023-12-18 16:44:48,525 [DEBUG] Importing Hdf5StubImagePlugin
+2023-12-18 16:44:48,529 [DEBUG] Importing IcnsImagePlugin
+2023-12-18 16:44:48,534 [DEBUG] Importing IcoImagePlugin
+2023-12-18 16:44:48,537 [DEBUG] Importing ImImagePlugin
+2023-12-18 16:44:48,539 [DEBUG] Importing ImtImagePlugin
+2023-12-18 16:44:48,542 [DEBUG] Importing IptcImagePlugin
+2023-12-18 16:44:48,544 [DEBUG] Importing JpegImagePlugin
+2023-12-18 16:44:48,545 [DEBUG] Importing Jpeg2KImagePlugin
+2023-12-18 16:44:48,546 [DEBUG] Importing McIdasImagePlugin
+2023-12-18 16:44:48,548 [DEBUG] Importing MicImagePlugin
+2023-12-18 16:44:48,551 [DEBUG] Image: failed to import MicImagePlugin: No module named 'olefile'
+2023-12-18 16:44:48,551 [DEBUG] Importing MpegImagePlugin
+2023-12-18 16:44:48,554 [DEBUG] Importing MpoImagePlugin
+2023-12-18 16:44:48,569 [DEBUG] Importing MspImagePlugin
+2023-12-18 16:44:48,572 [DEBUG] Importing PalmImagePlugin
+2023-12-18 16:44:48,574 [DEBUG] Importing PcdImagePlugin
+2023-12-18 16:44:48,576 [DEBUG] Importing PcxImagePlugin
+2023-12-18 16:44:48,577 [DEBUG] Importing PdfImagePlugin
+2023-12-18 16:44:48,585 [DEBUG] Importing PixarImagePlugin
+2023-12-18 16:44:48,589 [DEBUG] Importing PngImagePlugin
+2023-12-18 16:44:48,589 [DEBUG] Importing PpmImagePlugin
+2023-12-18 16:44:48,590 [DEBUG] Importing PsdImagePlugin
+2023-12-18 16:44:48,593 [DEBUG] Importing QoiImagePlugin
+2023-12-18 16:44:48,597 [DEBUG] Importing SgiImagePlugin
+2023-12-18 16:44:48,599 [DEBUG] Importing SpiderImagePlugin
+2023-12-18 16:44:48,602 [DEBUG] Importing SunImagePlugin
+2023-12-18 16:44:48,605 [DEBUG] Importing TgaImagePlugin
+2023-12-18 16:44:48,608 [DEBUG] Importing TiffImagePlugin
+2023-12-18 16:44:48,608 [DEBUG] Importing WebPImagePlugin
+2023-12-18 16:44:48,613 [DEBUG] Importing WmfImagePlugin
+2023-12-18 16:44:48,615 [DEBUG] Importing XbmImagePlugin
+2023-12-18 16:44:48,618 [DEBUG] Importing XpmImagePlugin
+2023-12-18 16:44:48,622 [DEBUG] Importing XVThumbImagePlugin
+2023-12-18 16:48:30,649 [INFO] C:\Users\aptea\OneDrive\Documents\NEU\Job_Application\17-12-23-v2\17-12-23\myproject\myproject\settings.py changed, reloading.

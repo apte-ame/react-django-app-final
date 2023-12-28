@@ -1,0 +1,190 @@
+/* AddPostModal.css */
+
+/* Styles for the modal overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styles for the modal */
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 80%; /* Adjust as needed */
+  max-width: 500px; /* Set a maximum width if desired */
+}
+
+/* Styles for the modal content */
+.modal-content {
+  text-align: center;
+}
+
+/* Styles for form labels */
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Styles for form controls */
+textarea,
+input[type="file"],
+.form-control {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+/* Styles for modal buttons */
+.modal-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styles for submit and cancel buttons */
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn-success {
+  background: #28a745; /* Green color, adjust as needed */
+  color: white;
+}
+
+.btn-danger {
+  background: #dc3545; /* Red color, adjust as needed */
+  color: white;
+}
+
+/* AddPostModal.css */
+
+.image-preview {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+/* Custom file input styling */
+/* AddPostModal.css */
+
+/* Custom file input styling */
+.custom-file-upload {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  border: 2px dashed #ddd; /* Dotted border for image upload */
+  border-radius: 5px;
+  width: 100%; /* Make the input consistent in width */
+  cursor: pointer;
+}
+
+.custom-file-upload:hover {
+  border-color: #555; /* Border color on hover */
+}
+
+.upload-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent; /* Transparent background for the icon */
+  cursor: pointer;
+}
+
+.upload-icon span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #555; /* Placeholder text color */
+}
+
+/* Additional styling for the file input label */
+.custom-file-upload {
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Style for displaying the selected image filename */
+.custom-file-upload input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload::after {
+  content: attr(data-file);
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top: 5px;
+}
+
+/* Adjust the size of the text area */
+.form-control {
+  height: 120px; /* Increase the height of the text area */
+}
+
+/* Improve label styling for better readability */
+.form-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.file-input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.file-input-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+/* AddPostModal.css */
+
+/* Styles for Bootstrap-like alert */
+.alert {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.alert-danger hr {
+  border-top-color: #f1b0b7;
+}
+
+.alert-danger a {
+  color: #491217;
+}
+
+.alert-danger a:hover {
+  color: #491217;
+}
+
+.alert-danger .alert-link {
+  font-weight: bold;
+}

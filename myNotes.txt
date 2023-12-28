@@ -1,0 +1,121 @@
+pip freeze > requirements.txt
+pip install python-decouple
+pip install mysqlclient
+python -m pip install Pillow
+pip install django-cors-headers
+pip install djangorestframework
+pip install django
+.\Scripts\activate
+cd myenv
+python -m venv myenv
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+.\myenv\Scripts\activate
+deactivate
+Unicode Character Table: This website allows you to browse and search for Unicode characters, including emojis.
+
+Emojipedia: Emojipedia provides information and search functionality for emojis, including their Unicode representations.
+
+Unicode.org: The official Unicode Consortium website provides detailed information about Unicode standards, including charts and character details.
+
+cors headers
+mysql client
+
+mysql -u your_database_user -p
+CREATE DATABASE post_db;
+USE post_db;
+SHOW tables;
+
+services - MySQL80 make it running
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+Install the Required Packages:
+
+Install django-storages and a specific storage backend for the cloud service you want to use. For example, for Amazon S3:
+
+bash
+Copy code
+pip install django-storages[amazon]
+Replace [amazon] with the appropriate storage backend for the cloud service you choose.
+
+Update settings.py:
+
+Configure django-storages in your settings.py file. Here's an example for Amazon S3:
+
+python
+Copy code
+# settings.py
+
+AWS_ACCESS_KEY_ID = 'your_access_key_id'
+AWS_SECRET_ACCESS_KEY = 'your_secret_access_key'
+AWS_STORAGE_BUCKET_NAME = 'your_bucket_name'
+AWS_S3_REGION_NAME = 'your_region'  # e.g., us-east-1
+AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+
+# Use Amazon S3 for storage for uploaded media files.
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
+# URL that handles the media served from AWS S3.
+MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/'
+Replace the placeholder values with your actual Amazon S3 credentials and configuration.
+
+Update urls.py:
+
+Make sure your urls.py is configured to serve media files during development. Add the following lines to the end of your urls.py:
+
+python
+Copy code
+# urls.py
+
+from django.conf import settings
+from django.conf.urls.static import static
+
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+Collectstatic:
+
+Run the following command to collect static files, which will upload your media files to the configured cloud storage:
+
+bash
+Copy code
+python manage.py collectstatic
+Now, your media files will be stored in the configured cloud storage service, and your Django application will serve them from there.
+
+Remember to keep your cloud storage credentials secure, and consider using environment variables or a configuration file to store sensitive information. Additionally, refer to the documentation of the specific cloud storage service for any additional configuration steps.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Recently added post first - reverse the fetched list and display
+Please upload a valid image file
+Use Secure Storage for secrets
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+source ./Scripts/activate
+
+
+CREATE USER 'root'@'localhost' IDENTIFIED BY 'root';
+
+python3 -m pip install Pillow --break-system-packages
+
+
+HOST=nicejobapp.sytes.net PORT=80 npm start
+
+python3 manage.py runserver 0.0.0.0:8000
+ALLOWED_HOSTS = ['nicejobapp.sytes.net']
+
+chose formData as there is file upload scenario
+
+http://nicejobapp.sytes.net:8000/admin/login/?next=/admin/
+
+Can have a components folder too just matter of updating import statements
+
+React's virtual DOM and the diffing algorithm
+
